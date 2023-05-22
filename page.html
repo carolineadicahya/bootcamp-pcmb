@@ -8,6 +8,7 @@
     <header>
       <h1 style="color: sienna">Selamat Datang di Website Carol!</h1>
       <nav>
+        <h2 style="color: indianred">Daftar Isi:</h2>
         <ul>
           <li><a href="#Judul1">Apaitu Teknologi?</a></li>
           <li>
@@ -42,8 +43,7 @@
             meningkatkan efisiensi dan produktivitas dalam berbagai aspek
             kehidupan kita.
           </p>
-          <img
-            src="teknologi.jpg" alt="Gambar 1" width="400" height="225" />
+          <img src="teknologi.jpg" alt="Gambar 1" width="400" height="225" />
           <p>
             Selain itu, teknologi juga telah mengubah cara kita berkomunikasi
             dan berinteraksi satu sama lain. Melalui perkembangan internet dan
@@ -100,21 +100,21 @@
         </section>
         <section id="Judul3">
           <h2 style="color: indianred">Contact Me On:</h2>
-          <form onsubmit="submitForm()">
-            <label for="nama">Nama</label>
+          <form onsubmit="kirimPesan()">
+            <label for="nama">Nama: </label>
             <input type="text" id="nama" placeholder="Caroline" required />
             <br />
-            <label for="email">Email</label>
+            <label for="email">Email: </label>
             <input type="email" id="email" placeholder="caroline@gmail.com" />
             <br />
-            <label for="pesan">Pesan</label>
+            <label for="pesan">Pesan: </label>
             <textarea
               type="text"
               id="pesan"
               cols="30"
               rows="5"
               placeholder="Kamu sangat lucu yah"></textarea>
-            <input type="submit" value="Submit" />
+            <input type="submit" value="Kirim!" />
           </form>
 
           <script src="send.js"></script>
