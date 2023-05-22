@@ -1,4 +1,3 @@
-function submitForm() {
-  let value = document.getElementById("nama").value;
-  alert("Form Telah Terkirim", value);
+function kirimPesan() {
+  alert("Pesan Telah Terkirim! yey");
 }
